@@ -1,0 +1,170 @@
+* {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Playball', cursive;
+}
+
+.header {
+    grid-area: header;
+    background-color: darksalmon;
+    color: white;
+    opacity: 0.6;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px #000000;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.quotes {
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 40%;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+header nav {
+    width: 20%;
+    margin-right: 4%;
+    padding-top: 1.5%;
+}
+
+header nav a {
+    color: white;
+}
+
+header h1 {
+    margin-left: 5%;
+    width: 80%;
+}
+
+header h1 img {
+    height: 45%;
+    width: 3%;
+}
+.header form{
+    visibility: hidden;
+    margin-right: 12%;
+}
+
+.register {
+    width: 90%;
+    background-color: darksalmon;
+    padding: 4%;
+    margin-top: 20%;
+    margin-right: 10%;
+    border-radius: 30px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+    background-color: #E40A3C;
+    border-radius: 30px;
+    width: 98%;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.dp{
+    height:100%;
+    width:60%;
+    margin:auto;
+    margin-top:-20%;
+}
+.profile{
+    border:3px solid red;
+    border-radius: 50%;
+    height:100%;
+    width:100%;
+}
+.register form {
+    display: flex;
+    flex-direction: column;
+}
+.textbox {
+    border-radius: 5px;
+    width: 98%;
+}
+
+.textbox:hover {
+    box-shadow: 2px 2px 5px #E40A3C;
+    color: #E40A3C;
+}
+
+.dob {
+    border-radius: 5px;
+}
+
+.month {
+    width: 47%;
+}
+
+.day {
+    width: 25%;
+}
+
+.year {
+    width: 25%;
+}
+
+.dob:hover {
+    box-shadow: 2px 2px 5px #E40A3C;
+    color: #E40A3C;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darksalmon;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    height: auto;
+    padding-top:3%;
+    margin-top: 2%;
+}
+.members{
+    display: flex;
+    width: 100%;
+}
+.memberinfo{
+    padding: 4%;
+    padding-top:1.5%;
+    padding-left: 8.5%;
+}
+.member{
+    height:10vw;
+    width:10vw;
+    border-radius:50%;
+    border:black solid 5px;
+    margin:3%;   
+}
+
+
+.grid-container {
+    background-image: url("../images/background20.jpg");
+    background-size: "100% 80%";
+    display: grid;
+    grid-auto-columns: 7.4%;
+    grid-template-areas:
+        'header header header header header header header header header header header header'
+        'left left left left left left right right right right right right'
+        'footer footer footer footer footer footer footer footer footer footer footer footer';
+    grid-gap: 1%;
+}
